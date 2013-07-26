@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff98ed"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/scoretitle" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/etSQLName"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Score"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/etSQLScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <Button
+        android:id="@+id/enterScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter Score" >
+    </Button>
+
+</LinearLayout>

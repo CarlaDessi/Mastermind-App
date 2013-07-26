@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CodeBreaker</string>
+    <string name="score">score</string>
+    <string name="instructions">The objective of the game is to work out the color combination created by the computer within 12 guesses.\n\nThere are black and white pegs, the black ones tell you when you have guessed a right colour in the right place, and the white ones tell you when you have guessed the right colour but in the wrong place.\n\nThe overall score is higher for each increasing difficulty.</string>
+
+</resources>
